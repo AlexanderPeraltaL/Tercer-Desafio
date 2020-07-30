@@ -32,7 +32,7 @@ header #header{
 
 a{
     text-decoration: double;
-    color: black;
+    color: rgb(15, 100, 212);
       
 }
 
@@ -246,5 +246,15 @@ header nav ul .li-nav{
 
 footer{
     background-color:  rgb(15, 100, 212);
+    display: flex;
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    padding-bottom: 30px;
+
 }
+
 
