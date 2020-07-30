@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/stayle.css" />
-
+    
     <title>Product Landing Page</title>
   </head>
   <body>
     <header>
       <div>
-        <img src="img/Logo.png" alt="Logo Génesis Social Media" id="header" />
+       <a href="#hero"> <img src="img/Logo.png" alt="Logo Génesis Social Media" id="header"  /> </a>
       </div>
       <nav id="nav">
         <ul id="ul-nav">
@@ -21,108 +21,119 @@
             <a href="#customers">CLIENTES</a>
           </li>
           <li class="li-nav">
-            <a href="#packges">PAQUETES</a>
+            <a href="#packges1">CONTRATAR</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <section id="hero">
-      <img src="img/Logo.png" alt="Logo" class="logo" /> <br>
-    
-      For: Alexander Peralta <br />
+    <section id="hero"> <br> <br> <br> <br> <br> <br>
+      <img src="img/Logo.png" alt="Logo" class="logo" /> <br />
+
+      <p class="for"> For: Alexander Peralta Londoño</p>
+     
       <input
         type="email"
         name="contacto_email"
-        id="contacto_email"
+        class="contacto_email"
         autocomplete="email"
         placeholder="Ingresa tu E-mail para contactarte"
       />
       <br />
-      <button>Contratar servicios</button>
+      <button class="btn_packges">Contratar servicios</button>
     </section>
-    <section id="service">
-      <div>
-        <img src="img/Pointer_illustrator.png" alt="Pointer_illustrator" />
+    <section id="service"> <br> 
+        <h1 id="title_service">Nuestros Servicios</h1>
+      <div class="productos">
+        <img src="img/Pointer_illustrator.png" alt="Pointer_illustrator" class="img_service"/>
+        <div class="text_service2">
         <h3>Vectorización</h3>
         <p>
           Hacemos cualquier tipo de vectorizado para publicidad, logos, mackups
           entre otros.
         </p>
+        </div>
       </div>
 
-      <div>
-        <img src="img/Redes_Sociales.png" alt="Redes_Sociales" />
+      <div class="productos">
+        <img src="img/Redes_Sociales.png" alt="Redes_Sociales"
+        class="img_service"/>
+        <div class="text_service1">
         <h3>Community Manager</h3>
         <p>Construcción y administración de los medios sociales de su marca.</p>
+        </div>
       </div>
 
-      <div>
-        <img src="/img/Wordpress.png" alt="Wordpress" />
+      <div class="productos">
+        <img src="/img/Wordpress.png" alt="Wordpress" 
+        class="img_service"/>
+        <div class="text_service">
         <h3>Página Web con Wordpress</h3>
         <p>
-          Una página web profesional para tu negocio, creada con una de las
+          Una página web profesional para su negocio, creada con una de las
           herramientas mas usadas en el medio.
         </p>
+    </div>
       </div>
     </section>
 
-    <section id="customers">
-      <h2>Nuestros principales clientes</h2>
-      <div>
-        <img src="/img/FernandoVelez.png" alt="FernandoVelez" />
-        <h4>Institucion Educativa Fernando Velez</h4>
+    <section id="customers"><br><br><br><br>
+
+      <h2 class="text_customers">Nuestros principales clientes</h2>
+
+    <div id="cliente">
+
+      <div class="cliente1">
+        <img src="/img/FernandoVelez.png" alt="FernandoVelez" class="img_cliente1"/>
+        <h4 class="text_cliente1">I.E Fernando Velez</h4>
       </div>
 
-      <div>
-        <img src="/img/AudiCodex.svg" alt="AudiCodex" />
-        <h4>AudiCodex</h4>
+      <div class="cliente2">
+        <img src="/img/AudiCodex.svg" alt="AudiCodex" class="img_cliente2" />
+        <h4 class="text_cliente2">AudiCodex</h4>
       </div>
-      <div>
-        <img src="/img/Ecorresponsables.jpeg" alt="Ecorresponsables" />
-        <h4>Ecorresponsables</h4>
+      <div class="cliente3">
+        <img src="/img/Ecorresponsables.jpeg" alt="Ecorresponsables" class="img_cliente3" />
+        <h4 class="text_cliente3">Ecorresponsables</h4>
       </div>
-      <div>
-        <img src="/img/TuHomePet.jpg" alt="TuHomePet" />
-        <h4>TuHomePet</h4>
+      <div class="cliente4">
+        <img src="/img/TuHomePet.jpg" alt="TuHomePet" class="img_cliente4" />
+        <h4 class="text_cliente4">TuHomePet</h4>
       </div>
+    </div>
     </section>
 
+    <section>
+    <h1 id="packges1">Contratar</h1>
+</section>
     <section id="packges">
-      <div>
-        <div class="header_packges">Initial</div>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-        <button class="btn_packges">Cotizar</button>
+        
+      <div class="plan">
+        <div class="header_packges">Página Web</div>
+            <h3 class="text_content">  Diseño de página web única y profesional <br> <br></h3>
+        <button class="btn_packges">Contratar</button>
       </div>
 
-      <div>
-        <div class="header_packges">Business</div>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-        <button class="btn_packges">Cotizar</button>
+      <div class="plan">
+        <div class="header_packges">Community Manager</div>
+
+        <h3 class="text_content">Manejo de redes sociales y creación de estrategias publicitarias </h3>
+        
+        <button class="btn_packges">Contratar</button>
       </div>
 
-      <div>
-        <div class="header_packges">GénesisPRO</div>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-        <button class="btn_packges">Cotizar</button>
-      </div>
+      <div class="plan"> 
+        <div class="header_packges">Todos los servicios</div>
 
-      <footer>
+        <h3 class="text_content">Puede obtener todos los servicios de Génesis Social Media a un excelente precio</h3>
+        
+        <button class="btn_packges">Contratar</button>
+      </div>
+    </section>
+
+    <footer> <br> <br> <br> <br> <br>
         Copyright 2016, Génesis Social Media <br />
         ¡Bienvenido al mundo digital!
       </footer>
-    </section>
   </body>
 </html>
